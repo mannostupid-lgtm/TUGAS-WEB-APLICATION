@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /* Selector dengan Elemen HTML */
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: orangered;
+            font-size: 24px;
+        }
+
+        h3 {
+            color: orangered;
+            font-style: italic;
+        }
+
+        ul a {
+            color: crimson;
+        }
+
+        ol a {
+            color: purple;
+        }
+
+        /* Selector dengan Id Elemen HTML */
+        #wrapper {
+            border-top: 5px solid #333;
+            padding-top: 15px;
+            max-width: 900px;
+        }
+
+        #kota {
+            margin-top: 20px;
+        }
+
+        /* Selector dengan Class Elemen HTML */
+        p.hijau {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: rgb(176, 127, 71);
+            text-align: justify;
+        }
+
+        p.merah {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: rgb(157, 0, 255);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="wrapper">
+        <h1>Hallo. Ini ada beberapa link</h1>
+
+        <!-- Daftar tidak berurut -->
+        <ul>
+            <li><a href="#">Link1</a></li>
+            <li><a href="#">Link2</a></li>
+            <li><a href="#">Link3</a></li>
+            <li><a href="#">Link4</a></li>
+            <li><a href="#">Link5</a></li>
+        </ul>
+
+        <!-- Daftar berurut -->
+        <ol>
+            <li><a href="#">Link6</a></li>
+            <li><a href="#">Link7</a></li>
+            <li><a href="#">Link8</a></li>
+            <li><a href="#">Link9</a></li>
+            <li><a href="#">Link10</a></li>
+        </ol>
+
+        <p><a href="#">Klik Disini</a></p>
+
+        <h3 id="kota">Kota Malang</h3>
+
+        <p class="hijau">
+            Kota wisata merupakan sebutan lain untuk kota ini, karena pada zaman dulu kota ini
+            dinilai sangat cantik dengan banyaknya pohon-pohon dan wisata yang banyak dan beragam di sana.
+            Selain itu Malang dahulunya disebut juga dengan Parijs van oost-Java karena keindahannya.
+            Selain itu kota Malang juga dikenal sebagai kota pelajar, dengan beragam universitas yang banyak tersebar di kota ini,
+             dan saat ini berangsur-angsur kota Malang juga menjadi
+            kota wisata kuliner..
+        </p>
+
+        <p class="merah">
+            Malang menjadi salah satu kota dengan julukan kota singa dengan club kebanggaan di kota Malang yaitu AREMA.
+            Malang juga meliki bahasa dan keunikan lokal yaitu bahasa kiwalan / walikan yang digunakan dari jaman belanda hingga sekarang.
+        </p>
+    </div>
+
+</body>
+</html>
